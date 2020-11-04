@@ -9,31 +9,50 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fcb3e6a7-740d-44b8-99bf-c874d9596a8a" name="Default Changelist" comment="Added Dependencies">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+    <list default="true" id="fcb3e6a7-740d-44b8-99bf-c874d9596a8a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/yashp.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/yash/myproject/ProjectApplication.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/yash/myproject/homescreen/SuperHeroListFragment.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/yash/myproject/homescreen/SuperheroAdapter.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/yash/myproject/homescreen/repository/ISuperHeroRepository.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/yash/myproject/homescreen/repository/SuperHeroRepository.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/yash/myproject/homescreen/viewmodel/ISuperHeroViewModel.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/yash/myproject/homescreen/viewmodel/SuperHeroViewModel.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/yash/myproject/homescreen/viewmodel/ViewModelStates.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/yash/myproject/model/Character.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/yash/myproject/model/Data.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/yash/myproject/model/SuperHeroResponse.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/yash/myproject/model/Thumbnail.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/yash/myproject/networking/ApiProvider.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/yash/myproject/networking/IApiProvider.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/yash/myproject/networking/INetworkService.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/yash/myproject/networking/ISuperHerosApi.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/yash/myproject/networking/NetworkExtension.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/yash/myproject/networking/NetworkRequestResult.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/yash/myproject/networking/NetworkService.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/yash/myproject/splash/SplashActivity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/yash/myproject/utils/ExtensionFunction.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/yash/myproject/utils/ViewModelExtension.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/yash/myproject/utils/ViewModelFactory.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_splash.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_superhero.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/item_superhero.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/navigation/main_graph.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.5/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.5/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.5/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_activity_activity_1_0_0_aar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_arch_core_core_runtime_2_0_0_aar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_core_core_1_3_1_aar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_core_core_ktx_1_2_0_aar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_customview_customview_1_0_0_aar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_drawerlayout_drawerlayout_1_0_0_aar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_fragment_fragment_1_1_0_aar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_common_2_1_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_livedata_core_2_0_0_aar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_runtime_2_1_0_aar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_viewmodel_2_1_0_aar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_material_material_1_2_1_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_livedata_2_0_0_aar.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules/app/My_Project.app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/app/My_Project.app.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/yash/myproject/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/yash/myproject/MainActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/themes.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/themes.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,6 +77,18 @@
       </state>
     </system>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="navigationResourceFile" />
+        <option value="Kotlin File" />
+        <option value="Kotlin Interface" />
+        <option value="Kotlin Class" />
+        <option value="layoutResourceFile" />
+        <option value="Kotlin Enum" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
@@ -67,6 +98,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1jaHlJbklnZn7F2fnHV7elPrJrA" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
@@ -75,10 +109,19 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="dart.analysis.tool.window.visible" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/src/main/java/com/yash/myproject" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.17" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="show.migrate.to.gradle.popup" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\yashp\MVVM-DI\app\src\main\java\com\yash\myproject" />
+    </key>
+    <key name="android.template.-345234758">
+      <recent name="com.yash.myproject.splash" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
@@ -164,7 +207,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604035675118</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Added Dependencies">
+      <created>1604037236329</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1604037236329</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -177,14 +227,50 @@
       <screen x="-1920" y="-313" width="1920" height="1040" />
     </state>
     <state x="-1443" y="-47" key="#PSD/0.0.1366.728/-1920.-313.1920.1040@-1920.-313.1920.1040" timestamp="1604036511855" />
-    <state x="-1308" y="-292" key="CommitChangelistDialog2" timestamp="1604036482637">
+    <state x="-1178" y="-77" key="#com.intellij.ide.util.MemberChooser" timestamp="1604407722280">
       <screen x="-1920" y="-313" width="1920" height="1040" />
     </state>
-    <state x="-1308" y="-292" key="CommitChangelistDialog2/0.0.1366.728/-1920.-313.1920.1040@-1920.-313.1920.1040" timestamp="1604036482637" />
+    <state x="-1178" y="-77" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728/-1920.-313.1920.1040@-1920.-313.1920.1040" timestamp="1604407722280" />
+    <state x="-1380" y="-38" key="AndroidCreateResourceDirectoryDialog" timestamp="1604038116485">
+      <screen x="-1920" y="-313" width="1920" height="1040" />
+    </state>
+    <state x="-1380" y="-38" key="AndroidCreateResourceDirectoryDialog/0.0.1366.728/-1920.-313.1920.1040@-1920.-313.1920.1040" timestamp="1604038116485" />
+    <state x="-1380" y="-38" key="AndroidCreateResourceFileDialog" timestamp="1604402713425">
+      <screen x="-1920" y="-313" width="1920" height="1040" />
+    </state>
+    <state x="-1380" y="-38" key="AndroidCreateResourceFileDialog/0.0.1366.728/-1920.-313.1920.1040@-1920.-313.1920.1040" timestamp="1604402713425" />
+    <state x="-1160" y="-56" key="AndroidProcessChooserDialog" timestamp="1604398580084">
+      <screen x="-1920" y="-313" width="1920" height="1040" />
+    </state>
+    <state x="-1160" y="-56" key="AndroidProcessChooserDialog/0.0.1366.728/-1920.-313.1920.1040@-1920.-313.1920.1040" timestamp="1604398580084" />
+    <state x="-1308" y="-292" key="CommitChangelistDialog2" timestamp="1604037235062">
+      <screen x="-1920" y="-313" width="1920" height="1040" />
+    </state>
+    <state x="-1308" y="-292" key="CommitChangelistDialog2/0.0.1366.728/-1920.-313.1920.1040@-1920.-313.1920.1040" timestamp="1604037235062" />
+    <state width="398" height="618" key="DebuggerActiveHint" timestamp="1604408194867">
+      <screen x="-1920" y="-313" width="1920" height="1040" />
+    </state>
+    <state width="398" height="618" key="DebuggerActiveHint/0.0.1366.728/-1920.-313.1920.1040@-1920.-313.1920.1040" timestamp="1604408194867" />
     <state x="-1514" y="-102" key="DiffContextDialog" timestamp="1604035552116">
       <screen x="-1920" y="-313" width="1920" height="1040" />
     </state>
     <state x="-1514" y="-102" key="DiffContextDialog/0.0.1366.728/-1920.-313.1920.1040@-1920.-313.1920.1040" timestamp="1604035552116" />
+    <state width="1876" height="266" key="GridCell.Tab.0.bottom" timestamp="1604468272089">
+      <screen x="-1920" y="-313" width="1920" height="1040" />
+    </state>
+    <state width="1876" height="266" key="GridCell.Tab.0.bottom/0.0.1366.728/-1920.-313.1920.1040@-1920.-313.1920.1040" timestamp="1604468272089" />
+    <state width="1876" height="266" key="GridCell.Tab.0.center" timestamp="1604468272088">
+      <screen x="-1920" y="-313" width="1920" height="1040" />
+    </state>
+    <state width="1876" height="266" key="GridCell.Tab.0.center/0.0.1366.728/-1920.-313.1920.1040@-1920.-313.1920.1040" timestamp="1604468272088" />
+    <state width="1876" height="266" key="GridCell.Tab.0.left" timestamp="1604468272088">
+      <screen x="-1920" y="-313" width="1920" height="1040" />
+    </state>
+    <state width="1876" height="266" key="GridCell.Tab.0.left/0.0.1366.728/-1920.-313.1920.1040@-1920.-313.1920.1040" timestamp="1604468272088" />
+    <state width="1876" height="266" key="GridCell.Tab.0.right" timestamp="1604468272089">
+      <screen x="-1920" y="-313" width="1920" height="1040" />
+    </state>
+    <state width="1876" height="266" key="GridCell.Tab.0.right/0.0.1366.728/-1920.-313.1920.1040@-1920.-313.1920.1040" timestamp="1604468272089" />
     <state x="-1330" y="-39" key="MultipleFileMergeDialog" timestamp="1604035688875">
       <screen x="-1920" y="-313" width="1920" height="1040" />
     </state>
@@ -193,13 +279,28 @@
       <screen x="-1920" y="-313" width="1920" height="1040" />
     </state>
     <state x="-1147" y="-175" key="RollbackChangesDialog/0.0.1366.728/-1920.-313.1920.1040@-1920.-313.1920.1040" timestamp="1604035562880" />
-    <state x="-1252" y="-76" width="583" height="566" key="find.popup" timestamp="1604036849547">
+    <state x="-1252" y="-76" width="583" height="624" key="find.popup" timestamp="1604037466546">
       <screen x="-1920" y="-313" width="1920" height="1040" />
     </state>
-    <state x="-1252" y="-76" width="583" height="566" key="find.popup/0.0.1366.728/-1920.-313.1920.1040@-1920.-313.1920.1040" timestamp="1604036849547" />
+    <state x="-1252" y="-76" width="583" height="624" key="find.popup/0.0.1366.728/-1920.-313.1920.1040@-1920.-313.1920.1040" timestamp="1604037466546" />
     <state x="-1195" y="-162" key="git4idea.branch.GitSmartOperationDialog" timestamp="1604035554814">
       <screen x="-1920" y="-313" width="1920" height="1040" />
     </state>
     <state x="-1195" y="-162" key="git4idea.branch.GitSmartOperationDialog/0.0.1366.728/-1920.-313.1920.1040@-1920.-313.1920.1040" timestamp="1604035554814" />
+    <state x="-1297" y="-88" width="672" height="678" key="search.everywhere.popup" timestamp="1604407712557">
+      <screen x="-1920" y="-313" width="1920" height="1040" />
+    </state>
+    <state x="-1297" y="-88" width="672" height="678" key="search.everywhere.popup/0.0.1366.728/-1920.-313.1920.1040@-1920.-313.1920.1040" timestamp="1604407712557" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/yash/myproject/homescreen/viewmodel/SuperHeroViewModel.kt</url>
+          <line>20</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
