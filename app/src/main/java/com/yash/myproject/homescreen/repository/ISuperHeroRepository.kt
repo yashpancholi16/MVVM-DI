@@ -10,5 +10,5 @@ interface ISuperHeroRepository {
 
     val state:LiveData<ViewModelStates>
 
-    fun fetchSuperHeros()
+    fun fetchSuperHeros(page:Int)
 }

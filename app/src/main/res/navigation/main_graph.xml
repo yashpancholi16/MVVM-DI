@@ -7,6 +7,18 @@
 
     <fragment
         android:id="@+id/superHeroFragment"
-        android:name="com.yash.myproject.homescreen.SuperHeroListFragment"
-        tools:layout="@layout/fragment_superhero" />
+        android:name="com.yash.myproject.homescreen.SuperHeroFragment"
+        tools:layout="@layout/fragment_superhero">
+        <action
+            android:id="@+id/action_superHeroFragment_to_detailFragment"
+            app:destination="@id/detailFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/detailFragment"
+        android:name="com.yash.myproject.detailscreen.DetailFragment"
+        android:label="DetailFragment">
+        <argument
+            android:name="props"
+            app:argType="com.yash.myproject.model.Character" />
+    </fragment>
 </navigation>

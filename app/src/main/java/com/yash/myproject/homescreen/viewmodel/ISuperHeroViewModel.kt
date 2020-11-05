@@ -6,5 +6,5 @@ interface ISuperHeroViewModel {
 
     val loaderVisibility: LiveData<Boolean>
 
-    fun fetchSuperHeros()
+    fun fetchSuperHeros(page:Int)
 }

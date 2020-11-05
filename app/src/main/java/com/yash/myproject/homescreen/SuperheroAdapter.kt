@@ -7,19 +7,23 @@ import androidx.recyclerview.widget.RecyclerView
 import com.yash.myproject.R
 import com.yash.myproject.databinding.ItemSuperheroBinding
 import com.yash.myproject.model.Character
+import com.yash.myproject.utils.ClickListener
 import com.yash.myproject.utils.load
 
-class SuperheroAdapter : RecyclerView.Adapter<SuperheroAdapter.SuperHeroViewHolder>() {
+class SuperheroAdapter(private val listener: ClickListener) :
+    RecyclerView.Adapter<SuperheroAdapter.SuperHeroViewHolder>() {
 
     private val characterList = ArrayList<Character>()
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): SuperHeroViewHolder {
-        return SuperHeroViewHolder(DataBindingUtil.inflate(
-            LayoutInflater.from(parent.context),
-            R.layout.item_superhero,
-            parent,
-            false
-        ))
+        return SuperHeroViewHolder(
+            DataBindingUtil.inflate(
+                LayoutInflater.from(parent.context),
+                R.layout.item_superhero,
+                parent,
+                false
+            )
+        )
     }
 
     override fun onBindViewHolder(holder: SuperHeroViewHolder, position: Int) {
@@ -28,10 +32,15 @@ class SuperheroAdapter : RecyclerView.Adapter<SuperheroAdapter.SuperHeroViewHold
 
     override fun getItemCount(): Int = characterList.size
 
-    fun updateUI(list: ArrayList<Character>) {
-        characterList.clear()
+    fun updateUI(list: ArrayList<Character>, pageNo: Int) {
+        if (pageNo == 1 && characterList.isNotEmpty())
+        {
+            characterList.clear()
+            notifyDataSetChanged()
+        }
+        val startPosition = characterList.size
         characterList.addAll(list)
-        notifyDataSetChanged()
+        notifyItemRangeInserted(startPosition,list.size)
     }
 
     inner class SuperHeroViewHolder(private val binding: ItemSuperheroBinding) :
@@ -39,6 +48,10 @@ class SuperheroAdapter : RecyclerView.Adapter<SuperheroAdapter.SuperHeroViewHold
         fun bind(props: Character) {
             binding.imgThumbnail.load("${props.thumbnail.path}/standard_medium.${props.thumbnail.extension}")
             binding.txtName.text = props.name
+
+            binding.root.setOnClickListener {
+                listener.onSuperHeroClick(props)
+            }
         }
 
     }

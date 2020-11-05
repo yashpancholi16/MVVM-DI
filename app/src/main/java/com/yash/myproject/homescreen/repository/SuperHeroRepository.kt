@@ -4,7 +4,6 @@ import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import com.yash.myproject.homescreen.viewmodel.ViewModelStates
 import com.yash.myproject.model.SuperHeroResponse
-import com.yash.myproject.networking.IApiProvider
 import com.yash.myproject.networking.INetworkService
 import com.yash.myproject.networking.NetworkRequestResult
 import kotlinx.coroutines.Dispatchers
@@ -19,10 +18,10 @@ class SuperHeroRepository(private val networkProvider: INetworkService) : ISuper
     private val mSuperHeros = MutableLiveData<SuperHeroResponse>()
     override val superHeros: LiveData<SuperHeroResponse> = mSuperHeros
 
-    override fun fetchSuperHeros() {
+    override fun fetchSuperHeros(page:Int) {
         mStates.value = ViewModelStates.LOADING
         GlobalScope.launch(Dispatchers.IO) {
-            val result = networkProvider.fetchSuperHeros()
+            val result = networkProvider.fetchInitialSuperHeros(page)
 
             GlobalScope.launch(Dispatchers.Main) {
                 when (result) {

@@ -25,7 +25,7 @@ class SuperHeroViewModel(private val repository: ISuperHeroRepository) : ViewMod
         return state
     }
 
-    override fun fetchSuperHeros() {
-        repository.fetchSuperHeros()
+    override fun fetchSuperHeros(page:Int) {
+        repository.fetchSuperHeros(page)
     }
 }
